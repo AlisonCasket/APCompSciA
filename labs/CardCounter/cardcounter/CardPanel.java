@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cardcounter;
+//package cardcounter;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -28,7 +28,7 @@ public class CardPanel extends JPanel implements ActionListener {
     private Card clickedCard;
     private JButton[] cardButtons;
     private Card cardArray[];
-    private String pathToCardImages="C:\\Users\\HP Sprout\\Desktop\\NetbeansProjects\\CardCounter\\src\\images\\";
+    private String pathToCardImages="C:\\Users\\zoega\\OneDrive\\Documents\\GitHub\\APCompSciA\\labs\\CardCounter\\images";
     ImageIcon cardImageIcon;
 
     /**
