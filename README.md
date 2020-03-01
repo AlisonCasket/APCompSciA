@@ -14,37 +14,37 @@
 
 ## Pulling in changes from upstream
 
-* See if you have the upstream repo set up.
+1. See if you have the upstream repo set up.
 
-> `git remote -v`
-> origin  https://github.com/AlisonCasket/APCompSciA.git (fetch)
-> origin  https://github.com/AlisonCasket/APCompSciA.git (push)
+> `git remote -v`<br/>
+> origin  https://github.com/AlisonCasket/APCompSciA.git (fetch)<br/>
+> origin  https://github.com/AlisonCasket/APCompSciA.git (push)<br/>
 
-* Add the upstream repository, if not.
+2. Add the upstream repository, if not.
 
-`git remote add upstream https://github.com/hpluska/APCompSciA.git`
+> `git remote add upstream https://github.com/hpluska/APCompSciA.git`
 
-* Verify that it is added.
+3. Verify that it is added.
 
-> `git remote -v`
-> origin  https://github.com/AlisonCasket/APCompSciA.git (fetch)
-> origin  https://github.com/AlisonCasket/APCompSciA.git (push)
-> upstream        https://github.com/hpluska/APCompSciA.git (fetch)
-> upstream        https://github.com/hpluska/APCompSciA.git (push)
+> `git remote -v`<br/>
+> origin  https://github.com/AlisonCasket/APCompSciA.git (fetch)<br/>
+> origin  https://github.com/AlisonCasket/APCompSciA.git (push)<br/>
+> upstream        https://github.com/hpluska/APCompSciA.git (fetch)<br/>
+> upstream        https://github.com/hpluska/APCompSciA.git (push)<br/>
 
-* Get the contents from upstream.
+4. Get the contents from upstream.
 
-`git fetch upstream`
+> `git fetch upstream`
 
-* Make sure you are on your origin/master branch.
+5. Make sure you are on your origin/master branch.
 
-`git checkout master`
+> `git checkout master`
 
-* Merge in the upstream changes to your local repo.
+6. Merge in the upstream changes to your local repo.
 
-`git merge upstream/master`
+> `git merge upstream/master`
 
-* Fix any conflict, then commit/push.
+7. Fix any conflict, then commit/push.
 
 ## Build
 
