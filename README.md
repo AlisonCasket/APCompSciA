@@ -16,9 +16,9 @@
 
 * See if you have the upstream repo set up.
 
-`git remote -v`
-`origin  https://github.com/AlisonCasket/APCompSciA.git (fetch)`
-`origin  https://github.com/AlisonCasket/APCompSciA.git (push)`
+> `git remote -v`
+> origin  https://github.com/AlisonCasket/APCompSciA.git (fetch)
+> origin  https://github.com/AlisonCasket/APCompSciA.git (push)
 
 * Add the upstream repository, if not.
 
@@ -26,11 +26,11 @@
 
 * Verify that it is added.
 
-`git remote -v`
-`origin  https://github.com/AlisonCasket/APCompSciA.git (fetch)`
-`origin  https://github.com/AlisonCasket/APCompSciA.git (push)`
-`upstream        https://github.com/hpluska/APCompSciA.git (fetch)`
-`upstream        https://github.com/hpluska/APCompSciA.git (push)`
+> `git remote -v`
+> origin  https://github.com/AlisonCasket/APCompSciA.git (fetch)
+> origin  https://github.com/AlisonCasket/APCompSciA.git (push)
+> upstream        https://github.com/hpluska/APCompSciA.git (fetch)
+> upstream        https://github.com/hpluska/APCompSciA.git (push)
 
 * Get the contents from upstream.
 
