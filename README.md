@@ -14,7 +14,7 @@
 
 ## Pulling in changes from upstream
 
-1. See if you have the upstream repo set up.
+1. See if you have the upstream repo set up.  If you have upstream remotes, skip to step #4.
 
 > `git remote -v`<br/>
 > origin  https://github.com/AlisonCasket/APCompSciA.git (fetch)<br/>
