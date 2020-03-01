@@ -19,7 +19,7 @@ public class CardMain {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().add(new CardPanel());
 		frame.pack();
-		frame.setVisible(true);
+        frame.setVisible(true);
  
     }
     

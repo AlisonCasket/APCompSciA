@@ -28,7 +28,7 @@ public class CardPanel extends JPanel implements ActionListener {
     private Card clickedCard;
     private JButton[] cardButtons;
     private Card cardArray[];
-    private String pathToCardImages="C:\\Users\\HP Sprout\\Desktop\\NetbeansProjects\\CardCounter\\src\\images\\";
+    private String pathToCardImages="C:\\Users\\zoega\\Projects\\APCompSciA\\labs\\CardCounter\\images\\";
     ImageIcon cardImageIcon;
 
     /**
@@ -40,7 +40,8 @@ public class CardPanel extends JPanel implements ActionListener {
         dealSize = 10;
         CardCounter myDeal = new CardCounter(dealSize);
         cardArray = myDeal.getDealtCards();
-	
+
+        System.out.println("The sum thing is: " + Integer.toString(myDeal.sumDeal()));
 		
 	//DO NOT EDIT
         showCards(cardArray);
