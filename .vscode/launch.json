@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CardMain",
+            "request": "launch",
+            "mainClass": "cardcounter.CardMain",
+            "projectName": "CardCounter"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CardMain",
+            "request": "launch",
+            "mainClass": "CardMain",
+            "projectName": "CardCounter"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - p1",
             "request": "launch",
             "mainClass": "examSet26.p1",
